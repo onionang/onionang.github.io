@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer technical</title>
+    <link>https://onionang.github.io/</link>
+    <description>Recent content on computer technical</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 27 Jun 2018 22:52:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://onionang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://onionang.github.io/post/about/</link>
+      <pubDate>Wed, 27 Jun 2018 22:52:58 +0900</pubDate>
+      
+      <guid>https://onionang.github.io/post/about/</guid>
+      <description>self-responsibility. it is a technical memorandum.
+i do not recommend that it be written.</description>
+    </item>
+    
+  </channel>
+</rss>

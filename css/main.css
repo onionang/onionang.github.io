@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    background:#f6f6f6;
+    font-size:16px;
+}
+h1,span,p,ul,li{
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:#07b;
+}
+#all{
+    display: flex;
+    flex-direction:column;
+}
+#header{
+    background:#333;
+    border-bottom:solid 5px #08c;
+}
+#nav{
+    display: flex;
+    font:Bold 16px sans-serif;
+    list-style:none;
+    padding-left:0;
+}
+#nav li:first-child{
+    margin-right:auto;
+}
+#nav a{
+    display:block;
+    padding:1em;
+    color:#999;
+}
+#nav > .active a{
+    color:white;
+}
+#nav a:hover{
+    color:#07b;
+}
+#wrap{
+    display: flex;
+    flex-direction:row;
+    margin:1em auto;
+    flex:1;
+}
+.article{
+    background:white;
+    border:solid 1px #ccc;
+    width:900px;
+    padding:1em;
+    box-sizing:border-box;
+    margin-bottom:1em;
+}
+#r-sidebar{
+    width:300px;
+    padding:1em;
+}
+#footer{
+    margin-top:1em;
+    text-align:center;
+}
+
+.titlebar{
+    display: flex;
+    border-bottom:solid 5px #333;
+    padding:0 16px;
+    padding-bottom:16px;
+    font-size:16px;
+}
+.article_title{
+    margin:auto 0;
+    margin-right:16px;
+}
+.article_title a{
+    color:black;
+}
+
+.datetime{
+    margin:auto 0;
+    margin-left:auto;
+}
+
+.tags{
+    display: flex;
+    font:Bold 14px sans-serif;
+    list-style:none;
+    padding:0;
+}
+.tags li{
+    border-radius:10px;
+    padding:0.5em;
+    margin:0 5px;
+    background:#08c;
+}
+.tags a{
+    color:white;
+}
+.contents{
+    margin:16px;
+}
+.test{
+}
+.pagination{
+    display: flex;
+    font:Bold 14px sans-serif;
+    list-style:none;
+    justify-content:center;
+}
+.pagination a{
+    color:#999;
+    display:block;
+    padding:0 1em;
+}
+.pagination > .active a{
+    color:black;
+}
+.pagination a:hover{
+    color:#07b;
+    border-bottom:solid 5px #08c;
+    margin-bottom:-5px;
+}
+.nav_bar{
+    display:flex;
+    list-style:none;
+    padding-left:0;
+    color:#999;
+    text-align:center;
+    font-size:12px;
+}
+.nav_bar .nav_prev{
+    width:50%;
+    margin-right:auto;
+    border-radius:20px 0 0 20px;
+    border:solid 1px #ccc;
+    background:white;
+}
+.nav_bar .nav_next{
+    width:50%;
+    border-radius:0 20px 20px 0;
+    border:solid 1px #ccc;
+    border-left:0;
+    background:white;
+}
+.nav_bar span{
+    padding:0.5em;
+    display:block;
+}
+.nav_bar a{
+    padding:0.5em;
+    display:block;
+}
